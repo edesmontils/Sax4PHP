@@ -17,4 +17,8 @@ try {
 	echo "\n",$e;
 }catch(Exception $e) {
 	echo "Default exception >>", $e;
+<<<<<<< Updated upstream
 }?>
+=======
+}?>
+>>>>>>> Stashed changes
