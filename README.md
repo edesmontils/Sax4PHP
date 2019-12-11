@@ -34,6 +34,7 @@ PHP5:
 Code example in PHP5:
 =====================
 
+```php
 <?php header('Content-type: text/xml');
 include_once('Sax4PHP.php');
 
@@ -56,10 +57,10 @@ class MySaxHandler extends DefaultHandler {
   }
 }
 
-$xml = file_get_contents('myFile.xml');
 $sax = new SaxParser(new MySaxHandler());
-$sax->parse($xml);
+$sax->parse('myFile.xml');
 ?>
+```
 
 References:
 ===========
