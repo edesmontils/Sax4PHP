@@ -10,6 +10,7 @@ class MySaxHandler extends DefaultHandler {
   function endDocument() {echo "</list>\n";}
 }
 
+echo "==> parse\n";
 $sax = new SaxParser(new MySaxHandler());
 try {
 	$sax->parse('test.xml');
@@ -17,4 +18,16 @@ try {
 	echo "\n",$e;
 }catch(Exception $e) {
 	echo "Default exception >>", $e;
-}?>
+}
+
+echo "==> parseXML\n";
+$xml = file_get_contents('test.xml');
+$sax = new SaxParser(new MySaxHandler());
+try {
+	$sax->parseXML($xml);
+}catch(SAXException $e){  
+	echo "\n",$e;
+}catch(Exception $e) {
+	echo "Default exception >>", $e;
+}
+?>
