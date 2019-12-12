@@ -69,8 +69,6 @@ $sax->parse('myFile.xml');
 References:
 ===========
 
-[1] PHP XML Parser Functions: 
-
-•[1] SAX : http://www.saxproject.org/ 
-•[2] Java 1.5 SAX API : http://java.sun.com/j2se/1.5.0/docs/api/org/xml/sax/package-summary.html 
-•[3] PHP XML Parser Functions : http://www.php.net/manual/en/ref.xml.php
+- [1] SAX : http://www.saxproject.org/ 
+- [2] Java 1.5 SAX API : http://java.sun.com/j2se/1.5.0/docs/api/org/xml/sax/package-summary.html 
+- [3] PHP XML Parser Functions : http://www.php.net/manual/en/ref.xml.php
