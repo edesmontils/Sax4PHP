@@ -1,7 +1,7 @@
 # Sax4PHP
 
-Description:
-============
+## Description:
+
 Sax4PHP is a PHP5 class to manage XML with a Java like SAX API [1, 2]. 
 
 Development Status: 
