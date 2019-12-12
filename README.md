@@ -6,8 +6,8 @@ Sax4PHP is a PHP5 class to manage XML with a Java like SAX API.
 
 Development Status: 
 ===================
-- Production/Stable
-X development/Unstable
+- [ ] Production/Stable
+- [X] development/Unstable
 
 Version
 =======
