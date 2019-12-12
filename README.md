@@ -2,7 +2,7 @@
 
 Description:
 ============
-Sax4PHP is a PHP5 class to manage XML with a Java like SAX API. 
+Sax4PHP is a PHP5 class to manage XML with a Java like SAX API [1, 2]. 
 
 Development Status: 
 ===================
@@ -15,11 +15,12 @@ Version
 
 Intended Audience:
 ==================
-Developers, End Users/Desktop
+- Developers, 
+- End Users/Desktop
 
 License: 
 ========
-GNU General Public License (GNU GPL)
+GNU General Public License (GNU GPL) v3.0
 
 Operating System:
 =================
@@ -32,7 +33,7 @@ Programming Languages:
 ======================
 PHP5:
 -  Classes
--  Basic PHP4&5 XML Parser functions (see [1])
+-  Basic PHP4&5 XML Parser functions (see [3])
 
 Code example in PHP5:
 =====================
@@ -68,4 +69,8 @@ $sax->parse('myFile.xml');
 References:
 ===========
 
-[1] PHP XML Parser Functions: http://www.php.net/manual/en/ref.xml.php
+[1] PHP XML Parser Functions: 
+
+•[1] SAX : http://www.saxproject.org/ 
+•[2] Java 1.5 SAX API : http://java.sun.com/j2se/1.5.0/docs/api/org/xml/sax/package-summary.html 
+•[3] PHP XML Parser Functions : http://www.php.net/manual/en/ref.xml.php
