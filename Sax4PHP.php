@@ -138,13 +138,22 @@ private $saxHandler;
     while($fileContent = fread($fp, 1024*1024*5)) {
         $error = !xml_parse($this->sax, $fileContent, feof($fp));
         if ($error) {
-            #$xmlErreurString = xml_error_string(xml_get_error_code($this->sax));
             throw new SAXException($this->sax,xml_error_string(xml_get_error_code($this->sax)), 
                                         xml_get_error_code($this->sax));
         }
     }
 		$this->saxHandler->endDocumentHandler($this->sax);
 	}
+
+  function parseXML($xml) {
+    $this->saxHandler->startDocumentHandler($this->sax);
+    $error = ! xml_parse($this->sax,$xml,TRUE);
+    if ($error) {
+      throw new SAXException($this->sax,xml_error_string(xml_get_error_code($this->sax)), 
+                                        xml_get_error_code($this->sax));
+    }
+    $this->saxHandler->endDocumentHandler($this->sax);
+  }
 }
 
 /**
