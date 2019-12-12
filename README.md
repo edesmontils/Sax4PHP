@@ -11,7 +11,7 @@ X development/Unstable
 
 Version
 =======
-0.5
+0.6
 
 Intended Audience:
 ==================
@@ -23,13 +23,16 @@ GNU General Public License (GNU GPL)
 
 Operating System:
 =================
-All (hopefully!) MS Windows (95/98/NT/2000/XP), All BSD Platforms (FreeBSD/NetBSD/OpenBSD/Apple Mac OS X), All POSIX
+All (hopefully!) :
+- MS Windows (95/98/NT/2000/XP), 
+- All BSD Platforms (FreeBSD/NetBSD/OpenBSD/Apple Mac OS X), 
+- All POSIX
 
 Programming Languages: 
 ======================
 PHP5:
-  Classes
-  Basic PHP4&5 XML Parser functions (see [1])
+-  Classes
+-  Basic PHP4&5 XML Parser functions (see [1])
 
 Code example in PHP5:
 =====================
