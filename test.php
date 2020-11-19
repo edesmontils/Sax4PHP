@@ -21,10 +21,9 @@ try {
 }
 
 echo "==> parseXML\n";
-$xml = file_get_contents('test.xml');
 $sax = new SaxParser(new MySaxHandler());
 try {
-	$sax->parseXML($xml);
+	$sax->parseXML('test.xml');
 }catch(SAXException $e){  
 	echo "\n",$e;
 }catch(Exception $e) {
